@@ -22,7 +22,7 @@ function App() {
   return (
     <>
       <div className='container'>
-        <h1 className='top'>01-Stopwatch</h1>
+        <h1 className='top'>Stopwatch</h1>
         <div className='time'>
           <span>{("0"+Math.floor((time/60000)%60)).slice(-2)}:</span>
           <span>{("0"+Math.floor((time/1000)%60)).slice(-2)}:</span>
